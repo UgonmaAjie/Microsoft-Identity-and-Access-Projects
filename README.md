@@ -141,7 +141,6 @@ I plan to continue expanding this repository with projects covering:
 - Security Automation
 - Microsoft Sentinel
 - Threat Detection & Response
-- DevSecOps
 - Governance, Risk & Compliance (GRC)
 - Security Operations (SOC)
 
