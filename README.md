@@ -1,4 +1,4 @@
-# ☁️ Cloud & AI Security Projects
+# ☁️ SC300 Microsoft Identity And Access Administrator Projects
 
 ## Overview
 
