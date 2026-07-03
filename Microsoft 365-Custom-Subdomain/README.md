@@ -78,6 +78,8 @@ The TXT record was added to the DNS zone in the QServers Domain Manager.
 
 After DNS propagation, Microsoft successfully verified ownership of the subdomain.
 
+![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Domain%20setup.png)
+
 ---
 
 ### Step 5: Configure DNS Records
@@ -92,7 +94,7 @@ Configured the required DNS records provided by Microsoft 365, including:
 
 These records enabled Microsoft 365 services such as authentication, email delivery, and service discovery.
 
-![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Domain%20setup.png)
+![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/domain%20complete.png)
 
 ---
 
