@@ -46,7 +46,7 @@ Before starting this project, the following were required:
 
 ### Step 1: Purchase a Domain
 
-Purchased a custom domain from **QServers**.
+I purchased a custom domain from **QServers**.
 
 ![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Domain%20register.png)
 
@@ -54,13 +54,9 @@ Purchased a custom domain from **QServers**.
 
 ### Step 2: Create a Custom Subdomain
 
-Created a custom subdomain that would be integrated with the Microsoft 365 tenant.
+I created a custom subdomain that would be integrated with the Microsoft 365 tenant.
 
-Example:
-
-```text
-lab.example.com
-```
+![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Add%20domain.png)
 
 ---
 
@@ -96,6 +92,7 @@ Configured the required DNS records provided by Microsoft 365, including:
 
 These records enabled Microsoft 365 services such as authentication, email delivery, and service discovery.
 
+
 ---
 
 ### Step 6: Verify Configuration
@@ -105,6 +102,7 @@ After the DNS records propagated:
 - The subdomain was successfully verified.
 - Microsoft 365 recognized the custom subdomain.
 - The subdomain became available for user accounts and Microsoft 365 services.
+![](
 
 ---
 
