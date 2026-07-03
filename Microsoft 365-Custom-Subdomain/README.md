@@ -12,7 +12,7 @@ The project demonstrates practical experience with domain management, DNS config
 
 The goal of this project was to:
 
-- Purchase a domain from QServers.
+- Purchase a domain
 - Create a custom subdomain.
 - Add the subdomain to a Microsoft 365 tenant.
 - Verify domain ownership using DNS records.
@@ -50,8 +50,7 @@ Purchased a custom domain from **QServers**.
 
 Example:
 
-```text
-example.com
+![]()
 ```
 
 ---
