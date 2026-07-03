@@ -48,9 +48,7 @@ Before starting this project, the following were required:
 
 Purchased a custom domain from **QServers**.
 
-Example:
-
-![](Microsoft 365-Custom-Subdomain/Domain register.png)
+![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Domain%20register.png)
 
 ---
 
