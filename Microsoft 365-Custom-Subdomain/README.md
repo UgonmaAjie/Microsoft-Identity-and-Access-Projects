@@ -46,7 +46,7 @@ Before starting this project, the following were required:
 
 ### Step 1: Purchase a Domain
 
-I purchased a custom domain from **QServers**.
+I purchased a custom domain named "dailyseed.name.ng" from **QServers**.
 
 ![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Domain%20register.png)
 
