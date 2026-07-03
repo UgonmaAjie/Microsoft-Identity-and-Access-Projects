@@ -50,8 +50,7 @@ Purchased a custom domain from **QServers**.
 
 Example:
 
-![]()
-```
+![](Microsoft 365-Custom-Subdomain/Domain register.png)
 
 ---
 
