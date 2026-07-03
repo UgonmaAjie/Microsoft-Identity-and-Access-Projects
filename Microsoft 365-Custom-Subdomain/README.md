@@ -55,13 +55,6 @@ I purchased a custom domain from **QServers**.
 ### Step 2: Create a Custom Subdomain
 
 I created a custom subdomain that would be integrated with the Microsoft 365 tenant.
-
-![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Add%20domain.png)
-
----
-
-### Step 3: Add the Subdomain to Microsoft 365
-
 1. Signed in to the **Microsoft 365 Admin Center**.
 2. Navigated to **Settings > Domains**.
 3. Selected **Add domain**.
@@ -70,7 +63,12 @@ I created a custom subdomain that would be integrated with the Microsoft 365 ten
 
 ---
 
-### Step 4: Verify Domain Ownership
+![](https://github.com/UgonmaAjie/Cloud-And-AI-Security-Projects/blob/main/Microsoft%20365-Custom-Subdomain/Add%20domain.png)
+
+---
+
+
+### Step 3: Verify Domain Ownership
 
 Microsoft 365 generated a **TXT record** for domain verification.
 
@@ -82,7 +80,7 @@ After DNS propagation, Microsoft successfully verified ownership of the subdomai
 
 ---
 
-### Step 5: Configure DNS Records
+### Step 4: Configure DNS Records
 
 Configured the required DNS records provided by Microsoft 365, including:
 
@@ -98,7 +96,7 @@ These records enabled Microsoft 365 services such as authentication, email deliv
 
 ---
 
-### Step 6: Verify Configuration
+### Step 5: Verify Configuration
 
 After the DNS records propagated:
 
@@ -140,8 +138,6 @@ This project provided hands-on experience with:
 - Configuring Microsoft 365 custom domains.
 - Troubleshooting DNS propagation delays.
 - Integrating third-party domain providers with Microsoft 365.
-
----
 
 
 ---
