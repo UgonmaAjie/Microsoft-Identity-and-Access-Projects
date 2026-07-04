@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates how I used Microsoft Entra ID Conditional Access and Microsoft Defender for Cloud Apps (MDCA) to monitor a user's access to Microsoft Forms.
+This project demonstrates how I used Microsoft Entra ID Conditional Access and Microsoft Defender for Cloud Apps (MDCA) to monitor a user (Joao Pedro) access to Microsoft Forms.
 
-The objective was to provide visibility into a specific user's cloud application activity without interrupting normal business operations. To achieve this, I configured Conditional Access App Control in **Monitor only** mode and created an Activity Policy in Microsoft Defender for Cloud Apps to generate alerts whenever the monitored user accessed Microsoft Forms.
+The objective was to provide visibility into Joao Pedro cloud application activity without interrupting normal business operations. To achieve this, I configured Conditional Access App Control in **Monitor only** mode and created an Activity Policy in Microsoft Defender for Cloud Apps to generate alerts whenever the monitored Joao Pedro accessed Microsoft Forms.
 
 This project demonstrates how organizations can monitor user sessions, improve visibility into cloud application usage, and collect security insights before enforcing stricter access controls.
 
@@ -12,7 +12,7 @@ This project demonstrates how organizations can monitor user sessions, improve v
 
 ## Business Scenario
 
-An organization wanted to monitor the Microsoft Forms activity of a user named **Pedro** because the application contained sensitive business forms.
+An organization wanted to monitor the Microsoft Forms activity of a user named **Joao Pedro** because the application contained sensitive business forms.
 
 Instead of blocking access, the security team wanted to:
 
@@ -78,11 +78,22 @@ Alerts & Activity Logs
 
 ### Step 1 – Configure the Conditional Access Policy
 
-I created a Conditional Access policy targeting the user **Pedro**.
+I created a Conditional Access policy targeting the user **Joao Pedro**.
 
 The policy targeted Microsoft Forms and enabled **Conditional Access App Control** using **Monitor only** mode. This configuration redirected Pedro's session through Microsoft Defender for Cloud Apps without restricting his access.
 
-> **Screenshot:** Conditional Access Policy
+![Conditional Access Policy](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/create%20new%20policy.png)
+
+---
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/CA.png)
+
+---
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/CA%20user.png)
+
+---
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/CA%20monitor.png)
+
+
 
 ---
 
