@@ -1,4 +1,4 @@
-# ☁️ SC-300 Microsoft Identity And Access Administrator Projects
+# ☁️  Microsoft Identity And Access Administrator Projects
 
 ## Overview
 
