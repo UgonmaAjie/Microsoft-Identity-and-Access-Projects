@@ -51,6 +51,28 @@ For this project, I aimed to:
 
 ---
 
+## Architecture
+
+```
+Pedro
+   │
+   ▼
+Microsoft Entra ID
+   │
+Conditional Access Policy
+   │
+Use Conditional Access App Control
+(Monitor only)
+   │
+   ▼
+Microsoft Defender for Cloud Apps
+   │
+Activity Policy
+   │
+Alerts & Activity Logs
+```
+
+---
 # Monitoring User Access to Microsoft Forms Using Microsoft Defender for Cloud Apps and Microsoft Entra ID
 
 ## Overview
