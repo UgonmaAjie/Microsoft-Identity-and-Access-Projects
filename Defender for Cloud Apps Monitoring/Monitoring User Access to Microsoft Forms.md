@@ -50,6 +50,30 @@ For this project, I aimed to:
 | Enforcement Mode | Monitor only |
 
 ---
+---
+
+## Architecture
+
+```
+Pedro
+   │
+   ▼
+Microsoft Entra ID
+   │
+Conditional Access Policy
+   │
+Use Conditional Access App Control
+(Monitor only)
+   │
+   ▼
+Microsoft Defender for Cloud Apps
+   │
+Activity Policy
+   │
+Alerts & Activity Logs
+```
+
+---
 
 ## Implementation
 
