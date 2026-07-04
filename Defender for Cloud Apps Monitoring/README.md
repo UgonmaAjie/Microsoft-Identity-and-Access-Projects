@@ -76,7 +76,7 @@ Alerts & Activity Logs
 
 ## Implementation
 
-### Step 1 – Configure the Conditional Access Policy
+### Step 1 – Configuring the Conditional Access Policy
 
 I created a Conditional Access policy targeting the user **Joao Pedro**.
 
@@ -93,17 +93,21 @@ The policy targeted Microsoft Forms and enabled **Conditional Access App Control
 ---
 ![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/CA%20monitor.png)
 
-
+---
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/proof%20of%20policy.png)
 
 ---
 
-### Step 2 – Configure an Activity Policy
+### Step 2 – Configuring an Activity Policy
 
 Next, I navigated to Microsoft Defender for Cloud Apps and created an **Activity Policy**.
 
-The policy was configured to monitor Pedro's activity whenever he accessed Microsoft Forms and to generate alerts for security monitoring purposes.
+The policy was configured to monitor Pedro's activity whenever he accessed Microsoft Forms and to generate logs for security monitoring purposes.
 
-> **Screenshot:** Activity Policy
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/Creating%20policy1.png)
+
+---
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/Creating%20policy2.png)
 
 ---
 
@@ -113,17 +117,14 @@ To validate the implementation, I signed in as Pedro and accessed Microsoft Form
 
 The session displayed a monitoring notification indicating that the session was being monitored through Microsoft Defender for Cloud Apps.
 
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/Monitoring%20policy.png)
+
 I then confirmed that:
 
 - The activity was recorded.
-- An alert was generated.
 - The activity appeared in the Defender for Cloud Apps activity log.
 
-> **Screenshot:** Monitoring Notification
-
-> **Screenshot:** Activity Log
-
-> **Screenshot:** Alert Generated
+![](https://github.com/UgonmaAjie/Microsoft-Identity-and-Access-Projects/blob/main/Defender%20for%20Cloud%20Apps%20Monitoring/Activity%20log.png)
 
 ---
 
@@ -136,7 +137,6 @@ The monitored user was able to continue using Microsoft Forms without interrupti
 The solution provided:
 
 - Visibility into user activity.
-- Automated alert generation.
 - Activity logging for auditing.
 - A non-intrusive monitoring solution using **Monitor only** mode.
 
